@@ -10,7 +10,7 @@ const BoardGame = ( amountCards ) => {
 	return  /* html */`
 		<section class='board-game'>
 			${ $htmlcontent }
-		<section>
+		</section>
 	`; 
 }
 

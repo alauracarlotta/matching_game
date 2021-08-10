@@ -8,9 +8,9 @@ import Score from './src/objects/Score';
 const $root = document.querySelector( '#root' );
 
 $root.insertAdjacentHTML( 
-	'beforeend', 
+	'beforeend',
 	`
-	${ Score() } 
-	${ BoardGame( 6 ) }
+	${ Score() }
+	${ BoardGame(6) }
 	`
 );
