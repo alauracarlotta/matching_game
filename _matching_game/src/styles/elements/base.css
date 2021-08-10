@@ -1,6 +1,12 @@
+:root { /* poderia ser também html e body */
+	font-size: 10px;
+	height: 100%;
+}
+
 body {
 	background-color: var( --color-bgc );
 	display: block;
+	font-family: 'Press Start 2P', cursive;
 	margin: 0 auto;
 	max-width: 320px;
 }
