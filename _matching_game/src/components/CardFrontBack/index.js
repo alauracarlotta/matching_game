@@ -1,16 +1,20 @@
-import CardGame from "../CardGame";
+import CardGame from '../CardGame';
+import './style.css';
 
 const CardFrontBack = () => {
 	return /* html */ `
 		<article class="card-front-back">
-			${ CardGame() }
-			${ CardGame( 'logo_javascript' , 'Logo do JavaScript' ) }
+		
+			<div class="card -front">
+				${ CardGame() }
+			</div>
+
+			<div class="card -back">
+				${ CardGame( 'logo_javascript' , 'Logo do JavaScript' ) }
+			</div>
+
 		</article>
 	`;
 }
-
-       function laura( nome){
-		   		const name = [   2]			
-	   }
 
 export default CardFrontBack;
